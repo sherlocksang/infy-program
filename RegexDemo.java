@@ -25,7 +25,11 @@ public class RegexDemo {
 		return m.matches();
 				
 	}
-	
+	public static  boolean isMobileNumberValid2(String s) {
+		if(s.matches("[0-9]{3}\\-[0-9]{3}\\-[0-9]{3}"))return true;
+		return false;
+		
+	}
 	public static void main(String[] args) {
 		
 		@SuppressWarnings("resource")
