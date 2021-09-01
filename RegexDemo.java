@@ -25,11 +25,17 @@ public class RegexDemo {
 		return m.matches();
 				
 	}
-	public static  boolean isMobileNumberValid2(String s) {
-		if(s.matches("[0-9]{3}\\-[0-9]{3}\\-[0-9]{3}"))return true;
-		return false;
-		
+	/*
+	 * if(person.getName().matches("[A-Z][a-z]*([A-Z][a-z]*)*")&&person.getAge()>=18 && 
+           person.getAge() < 60 && 
+           person.getMobileNo().toString().length()==10 && person.getMobileNo()%1111111111 != 0) {
+            return true;
+	 */
+	public  boolean isMobileisunique(String s) {
+		if(s.matches("[A-Z][a-z]*"))
+				
 	}
+	
 	public static void main(String[] args) {
 		
 		@SuppressWarnings("resource")
